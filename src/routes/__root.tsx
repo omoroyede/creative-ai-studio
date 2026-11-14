@@ -82,13 +82,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Omoroyede — AI Creative Studio" },
-      { name: "description", content: "AI-powered video, business automation, and thoughtful digital experiences by Omoroyede." },
-      { name: "author", content: "Lovable" },
+      {
+        name: "description",
+        content:
+          "AI-powered video, business automation, and thoughtful digital experiences by Omoroyede.",
+      },
+      { name: "author", content: "Omoroyede" },
+      { name: "theme-color", content: "#0b0e14" },
       { property: "og:title", content: "Omoroyede — AI Creative Studio" },
-      { property: "og:description", content: "AI-powered video, business automation, and thoughtful digital experiences by Omoroyede." },
+      {
+        property: "og:description",
+        content:
+          "AI-powered video, business automation, and thoughtful digital experiences by Omoroyede.",
+      },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Omoroyede" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
@@ -98,7 +107,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      },
     ],
   }),
   shellComponent: RootShell,
