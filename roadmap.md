@@ -1,0 +1,5 @@
+- [x] Build a portfolio homepage from the uploaded outline in charcoal and electric blue with bold typography and a cinematic image.
+- [x] Add the provided email throughout the contact paths and make project contact open an email draft.
+- [x] Add dedicated Home, Services, About, Work, and Contact pages with page-specific metadata.
+- [x] Verify homepage rendering, navigation, metadata, contact links, image loading, and mobile/tablet overflow.
+- [x] Optimize and check the cinematic hero, navigation, and contact card on mobile and tablet.
