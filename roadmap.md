@@ -1,0 +1,3 @@
+- [ ] Build the portfolio homepage from the uploaded outline using the requested charcoal, electric-blue, bold-sans, cinematic direction.
+- [ ] Add the provided email to the contact card and make the contact action usable.
+- [ ] Verify the homepage, mobile layout, route metadata, and current preview build.
